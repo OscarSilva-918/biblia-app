@@ -14,14 +14,14 @@ export function Features() {
       iconColor: "bg-purple-500",
       path: "/daily"
     },
-    {
-      title: "Quiz Bíblico",
-      description: "Pon a prueba tu conocimiento con preguntas interactivas",
-      icon: Brain,
-      bgColor: "bg-blue-600",
-      iconColor: "bg-blue-500",
-      path: "/quiz"
-    },
+    // {
+    //   title: "Quiz Bíblico",
+    //   description: "Pon a prueba tu conocimiento con preguntas interactivas",
+    //   icon: Brain,
+    //   bgColor: "bg-blue-600",
+    //   iconColor: "bg-blue-500",
+    //   path: "/quiz"
+    // },
     {
       title: "Recursos de Estudio",
       description: "Material complementario para profundizar tu aprendizaje",
@@ -30,14 +30,14 @@ export function Features() {
       iconColor: "bg-indigo-500",
       path: "/resources"
     },
-    {
-      title: "Comunidad",
-      description: "Conecta con otros estudiantes y comparte experiencias",
-      icon: Users,
-      bgColor: "bg-pink-600",
-      iconColor: "bg-pink-500",
-      path: "/community"
-    },
+    // {
+    //   title: "Comunidad",
+    //   description: "Conecta con otros estudiantes y comparte experiencias",
+    //   icon: Users,
+    //   bgColor: "bg-pink-600",
+    //   iconColor: "bg-pink-500",
+    //   path: "/community"
+    // },
     {
       title: "Devocional",
       description: "Lecturas diarias para tu crecimiento espiritual",

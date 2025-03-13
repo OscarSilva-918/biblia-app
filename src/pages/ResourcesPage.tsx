@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { StudyList } from '../components/StudyList';
 import { LessonContent } from '../components/LessonContent';
 import { lessons } from '../data/lessons';
 

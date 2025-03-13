@@ -28,7 +28,7 @@ export function Banner() {
           transition={{ delay: 0.3 }}
           className="text-4xl font-bold mb-4"
         >
-          Descubre la Palabra de Dios
+          #FREE TEENS 2025
         </motion.h1>
         
         <motion.p
