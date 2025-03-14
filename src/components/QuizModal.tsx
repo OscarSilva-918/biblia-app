@@ -65,6 +65,7 @@ export function QuizModal({ isOpen, onClose, questions }: QuizModalProps) {
             <div className="p-6">
               <div className="flex items-center justify-between mb-6">
                 <h2 className="text-2xl font-bold text-gray-800">Quiz de la Lección</h2>
+                <span className="text-lg font-semibold text-blue-600">Puntaje: {score}</span>
                 <Timer duration={30} onTimeUp={() => handleAnswer(-1)} />
               </div>
               
