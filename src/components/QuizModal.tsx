@@ -51,7 +51,7 @@ export function QuizModal({ isOpen, onClose, questions }: QuizModalProps) {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.9 }}
-            className="relative w-full max-w-2xl bg-white rounded-xl shadow-2xl"
+            className="relative w-full max-w-2xl bg-white rounded-xl shadow-2xl relative w-full max-w-2xl bg-white rounded-xl shadow-2xl max-h-[98vh] overflow-y-auto"
           >
             <div className="absolute top-4 right-4">
               <button
